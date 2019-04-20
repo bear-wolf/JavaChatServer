@@ -1,5 +1,6 @@
 package controller;
 
+import interfaces.Controller;
 import service.StudentService;
 
 import javax.servlet.RequestDispatcher;

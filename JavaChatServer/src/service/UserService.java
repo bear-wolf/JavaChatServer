@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 public class UserService {
 
     private User parseRequest(HttpServletRequest request) {
-        if (request.getParameter('pass')) {
-
-        }
+//        if (request.getParameter('pass')) {
+//
+//        }
         return new User();
     }
 
