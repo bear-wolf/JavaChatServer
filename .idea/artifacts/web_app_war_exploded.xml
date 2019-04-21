@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-app:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web-app</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
